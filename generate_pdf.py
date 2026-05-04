@@ -16,11 +16,8 @@ from reportlab.platypus import (
     Paragraph, Spacer, Table, TableStyle,
 )
 from reportlab.lib import colors
-from reportlab.pdfgen import canvas as rl_canvas
 
 from pypdf import PdfReader, PdfWriter
-import fitz  # pymupdf — renders letterhead page as PDF background
-
 from templates import get_paragraph_2
 
 # ── Letterhead dimensions (A4 in points) ─────────────────────────────────────
